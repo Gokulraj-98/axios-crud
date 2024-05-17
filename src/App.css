@@ -1,0 +1,45 @@
+.App {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.edit,.submitButton,.delete{
+  background-color: cadetblue;
+}
+
+
+.users{
+  display: flex;
+  justify-content: space-between;
+
+}
+.name,.email{
+  height: 40px;
+}
+.card{
+  background-color: rgb(165, 246, 215);
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 15px;
+  padding: 30px;
+
+}
